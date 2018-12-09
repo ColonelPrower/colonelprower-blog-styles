@@ -1,25 +1,33 @@
 body{
-  background-color: whitesmoke;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
 .site-logo{
   width:10rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px;
 }
 .site-title{
-  font-size: 3rem
+  font-size: 3rem;
+  text-shadow: 0 0 0.1rem;
 }
 .wp-post-image{
   border-radius: 10px;
 }
-.more-link{
-  border-radius:10px;
+.more-link, #infinite-handle span{
+  border-radius:50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 .wpcnt{
   opacity: 0.3;
 }
-.post{
-  background: white;
-  border:double;
+.post,.page, .widget{
+  background: whitesmoke;
   border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  padding: 0.5rem
+}
+.widget{
+  padding: 0.5rem;
 }
 .entry-title{
   text-transform: capitalize !important;
