@@ -1,0 +1,27 @@
+body{
+  background-color: whitesmoke;
+}
+.site-logo{
+  width:10rem;
+}
+.site-title{
+  font-size: 3rem
+}
+.wp-post-image{
+  border-radius: 10px;
+}
+.more-link{
+  border-radius:10px;
+}
+.wpcnt{
+  opacity: 0.3;
+}
+.post{
+  background: white;
+  border:double;
+  border-radius: 10px;
+}
+.entry-title{
+  text-transform: capitalize !important;
+}
+
