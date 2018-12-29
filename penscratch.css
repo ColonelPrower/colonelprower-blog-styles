@@ -1,0 +1,23 @@
+.custom-logo{
+	border-radius:50%;
+	box-shadow: 	0 4px 8px 0 rgba(0,0,0,0.10);
+}
+.site{
+  background: none;
+}
+.site-header,.widget,.post,.page,.site-info-wrapper{
+  border-radius: 5px; 
+  padding:1rem;
+  background: #f4f7fb;
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.10);
+}
+.widget{
+  padding:0.3rem;  
+}
+.entry-title,.widget-title{
+ border-bottom: solid 1px #8897a2;
+}
+.tag-cloud-link{
+  border-radius:50px;
+  box-shadow: 		0 1px 1px 0 ;
+}
