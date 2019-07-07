@@ -1,0 +1,14 @@
+/*
+Te damos la bienvenida a CSS personalizado
+
+Para saber cómo funciona, ve a http://wp.me/PEmnE-Bt
+*/
+.content{
+	border-radius:0.5rem;
+	box-shadow: 0 4px 8px 0 black;
+}
+.profile-img img {
+	border:solid white;
+	border-radius:50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
+}
